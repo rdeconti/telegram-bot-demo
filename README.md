@@ -34,28 +34,22 @@ During all operations in the city object there must be at least one description.
 
 To get a city with a description you need to execute this GET request, where change _cityName_ to the city you want to find.
 ```Java
-GET http://localhost:8080/api-telegram-bot/your-token*/get?city=cityName
+GET http://localhost:8080/your-token*/api-telegram-bot?city=cityName
 ```
 
 To create a city with a description, you need to execute this POST request, and in the request body there must be a City object in JSON format.
 ```Java
-POST http://localhost:8080/api-telegram-bot/your-token*/create
+POST http://localhost:8080/your-token*/api-telegram-bot
 ```
 
 To update a city with a description, you need to execute this PUT request, and in the request body there must be a City object in JSON format. ATTENTION! If the city with this name was not in the list, then it will be created.
 ```Java
-PUT http://localhost:8080/api-telegram-bot/your-token*/update
+PUT http://localhost:8080/your-token*/api-telegram-bot
 ```
 
 To delete a city with a description, you need to execute this DELETE request, where change _cityName_ to the city you want to delete.
 ```Java
-DELETE http://localhost:8080/api-telegram-bot/your-token*/delete/cityName
-```
-
-To delete the last added description to the city you need to execute this DELETE request, where change _cityName_ the last description of which city do you want to delete.
-```Java
-DELETE http://localhost:8080/api-telegram-bot/your-token*/delete-last-description/cityName
-
+DELETE http://localhost:8080/your-token*/api-telegram-bot/cityName
 ```
 *-put your personal token
 
