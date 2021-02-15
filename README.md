@@ -1,4 +1,4 @@
-# WorkoutLog
+# Telegram-bot-demo
 ![imagename](https://res.cloudinary.com/edmonddantes/image/upload/v1613371442/Screenshot_from_2021-02-15_09-43-04_u1qiwg.png)
 ## About
 A **Tourist Telegram bot** that provides information about cities, must-see places and local attractions. As well as API for performing CRUD operations on the list of cities
