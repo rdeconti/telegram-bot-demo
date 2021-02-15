@@ -3,7 +3,6 @@ package by.zadziarnouski.telegrambotdemo;
 
 import by.zadziarnouski.telegrambotdemo.model.Description;
 import by.zadziarnouski.telegrambotdemo.service.CityService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -35,10 +34,6 @@ public class Bot extends TelegramLongPollingBot {
                 " '/help' - to get general information about me");
     }
 
-    private final String START_COMMAND = "/start";
-    private final String HELP_COMMAND = "/help";
-
-    @Autowired
     private final CityService cityService;
 
     public Bot(CityService cityService) {

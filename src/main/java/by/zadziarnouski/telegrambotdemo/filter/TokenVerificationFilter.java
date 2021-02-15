@@ -9,6 +9,7 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.HashMap;
 
 
 @Component
@@ -35,7 +36,7 @@ public class TokenVerificationFilter implements Filter {
 
     private boolean tokenVerification(String requestURI) {
         String[] split = requestURI.split("/");
-        return telegramBotApi.getBotToken().equals(split[2]);
+        return telegramBotApi.getBotToken().equals(split[1]);
     }
 
 }

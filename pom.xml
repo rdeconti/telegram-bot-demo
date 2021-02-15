@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>by.zadzirnouski</groupId>
-    <artifactId>telegram-bot-zhast</artifactId>
+    <artifactId>telegram-bot-demo</artifactId>
     <version>v1.0</version>
     <name>telegram-bot-zhast</name>
     <description>Tourist bot by city</description>
