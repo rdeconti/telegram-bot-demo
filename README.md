@@ -12,7 +12,7 @@ This project is based on the [Spring Boot](https://spring.io/projects/spring-boo
 * [H2 Databaase](https://core.telegram.org/api "Telegram Bot API")
 
 ## Configuration
-To get username and token you need to create your bot [BotFather](t.me/BotFather "BotFather"). After add your credentials to ```/resources/bot.properties```. The default ones are :
+To get username and token you need to create your bot [BotFather](https://t.me/BotFather "BotFather"). After add your credentials to ```/resources/bot.properties```. The default ones are :
 
 ```Java
 username = XXXXXXXXXXXXXXXX
