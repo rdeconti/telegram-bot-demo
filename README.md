@@ -9,7 +9,7 @@ This project is based on the [Spring Boot](https://spring.io/projects/spring-boo
 * [Spring Web](https://spring.io/ "Spring Web")
 * [Spring Data JPA](https://spring.io/projects/spring-data-jpa "Spring Data JPA") ([Hibernate](http://hibernate.org/ "Hibernate"))
 * [Telegram Bot API](https://core.telegram.org/bots/api "Spring Web")
-* [H2 Databaase](https://core.telegram.org/api "Telegram Bot API")
+* [H2 Database](https://core.telegram.org/api "Telegram Bot API")
 
 ## Configuration
 To get username and token you need to create your bot [BotFather](https://t.me/BotFather "BotFather"). After add your credentials to ```/resources/bot.properties```. The default ones are :
